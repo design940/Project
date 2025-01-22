@@ -8,14 +8,14 @@
     <link rel="stylesheet" href="index_common.css">
     <link rel="stylesheet" href="index_style.css">
     <link rel="icon" type="image/x-icon" href="https://design940.github.io/Project/images/favicon-16x16.png">
-    
+
+
     <!-- font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <!-- swiper css cdn -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
     <!-- jquery cdn -->
     <script src="https://code.jquery.com/jquery-latest.min.js"></script>
-    
 </head>
 <body>
     <!-- Header -->
@@ -33,72 +33,144 @@
 
     <div class="gallery-wrap">
         <div class="flex-box">
-            <div class="box01" onclick="popupOpen(this)">
+            <div class="box01" onclick="popupOpen1(this)">
                 <img src="https://design940.github.io/Project/images/click.png">
-                <span>PROJECT</span>
+                <span>한국수목원정원관리원</span>
+            </div>
+            <div class="box02" onclick="popupOpen2(this)">
+                <img src="https://design940.github.io/Project/images/click.png">
+                <span>NFTEM</span>
+            </div>
+            <div class="box03" onclick="popupOpen3(this)">
+                <img src="https://design940.github.io/Project/images/click.png">
+                <span>리딩엠</span>
+            </div>
+            <div class="box04" onclick="popupOpen4(this)">
+                <img src="https://design940.github.io/Project/images/click.png">
+                <span>Ticket Bell</span>
             </div>
             
         </div>
         <!-- popup -->
-         <div class="gallery-popup" id="gallery">
+         <div class="gallery-popup" id="gallery1">
             <div class="popup-bg"></div>
             <div class="gallery">
                 <div class="title-box">
-                    <p id="popupText">Project Name</p>
-                    <button type="button" class="close" onclick="popupClose()">
+                    <p id="popupText">한국수목원정원관리원</p>
+                    <button type="button" class="close" onclick="popupClose1()">
                         <i class="fa-solid fa-xmark">
-                            
                         </i>
                     </button>
                 </div>
-                <div class="big-img">
-                    <img id="mainImage" src="https://design940.github.io/Project/images/big_img.png">
-                </div>
-                <div class="swiper mySwiper">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <img src="https://design940.github.io/Project/images/han1.png">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="https://design940.github.io/Project/images/han2.png">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="https://design940.github.io/Project/han3.png">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="https://design940.github.io/Project/nft_1.png">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="https://design940.github.io/Project/nft_main.png">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="https://design940.github.io/Project/nft_market.png">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="https://design940.github.io/Project/nft_mypage.png">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="https://design940.github.io/Project/read_1.png">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="https://design940.github.io/Project/read_2.png">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="https://design940.github.io/Project/read_3.png">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="https://design940.github.io/Project/t_1.png">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="https://design940.github.io/Project/t_2.png">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="https://design940.github.io/Project/t_3.png">
+                    <div class="big-img">
+                        <img id="mainImage1" src="https://design940.github.io/Project/images/han1.png">
+                    </div>
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="https://design940.github.io/Project/images/han1.png">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="https://design940.github.io/Project/images/han2.png">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="https://design940.github.io/Project/han3.png">
+                            </div>
                         </div>
                     </div>
-                </div>
             </div>
          </div>
+
+         <div class="gallery-popup" id="gallery2">
+            <div class="popup-bg"></div>
+            <div class="gallery">
+                <div class="title-box">
+                    <p id="popupText">NFTEM</p>
+                    <button type="button" class="close" onclick="popupClose2()">
+                        <i class="fa-solid fa-xmark">
+                        </i>
+                    </button>
+                </div>
+                    <div class="big-img">
+                        <img id="mainImage2" src="https://design940.github.io/Project/nft_1.png">
+                    </div>
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="https://design940.github.io/Project/nft_1.png">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="https://design940.github.io/Project/nft_main.png">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="https://design940.github.io/Project/nft_market.png">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="https://design940.github.io/Project/nft_mypage.png">
+                            </div>
+                        </div>
+                    </div>
+            </div>
+         </div>
+
+         <div class="gallery-popup" id="gallery3">
+            <div class="popup-bg"></div>
+            <div class="gallery">
+                <div class="title-box">
+                    <p id="popupText">리딩엠</p>
+                    <button type="button" class="close" onclick="popupClose3()">
+                        <i class="fa-solid fa-xmark">
+                        </i>
+                    </button>
+                </div>
+                    <div class="big-img">
+                        <img id="mainImage3" src="https://design940.github.io/Project/read_1.png">
+                    </div>
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="https://design940.github.io/Project/read_1.png">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="https://design940.github.io/Project/read_2.png">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="https://design940.github.io/Project/read_3.png">
+                            </div>
+                        </div>
+                    </div>
+            </div>
+         </div>
+
+         <div class="gallery-popup" id="gallery4">
+            <div class="popup-bg"></div>
+            <div class="gallery">
+                <div class="title-box">
+                    <p id="popupText">Ticket Bell</p>
+                    <button type="button" class="close" onclick="popupClose4()">
+                        <i class="fa-solid fa-xmark">
+                        </i>
+                    </button>
+                </div>
+                    <div class="big-img">
+                        <img id="mainImage4" src="https://design940.github.io/Project/t_1.png">
+                    </div>
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="https://design940.github.io/Project/t_1.png">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="https://design940.github.io/Project/t_2.png">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="https://design940.github.io/Project/t_3.png">
+                            </div>
+                        </div>
+                    </div>
+            </div>
+         </div>
+
     </div>
     
      <nav class="menu">
