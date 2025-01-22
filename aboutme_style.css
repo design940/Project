@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    background-color: #E1E1E1;
+    font-family: pretandard;
+}
+
+a {
+    text-decoration: none;
+    color: #191919;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background-color: #F5F3F1;
+    border: 1px solid #D9D9D9;
+}
+
+.header .circle {
+    padding-left: 67px;
+    padding-top: 28px;
+}
+
+.header .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-size: 36px;
+    font-weight: bold;
+    padding-right: 130px;
+}
+
+.container {
+    /* width: 100% */
+    background-color: white;
+    width: 1520px;
+    height: 900px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.container .box {
+    display: block;
+    width: 420px;
+    height: 420px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 150px;
+    margin-left: 135px;
+}
+
+.container .box img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+h4 {
+    font-size: 18px;
+    padding-bottom: 0;
+    margin-top: 40px;
+    margin-bottom: 14px;
+}
+
+.metadata {
+    margin-bottom: 80px;
+}
+
+.metadata .info .info_data  {
+    box-sizing: border-box;
+    background-color: #F3F3F3;
+    width: 680px;
+    padding: 16px 0 16px 30px;
+    border-radius: 16px;
+}
+
+.metadata .info_data{
+    padding: 20px 0 20px 30px;
+}
+.metadata .info_data p span {
+    margin-left: 12px;
+}
+
+.metadata .skills_data  {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3개의 열 */
+    grid-template-rows: auto auto; /* 2개의 행 */
+    gap: 10px; /* 항목 간의 간격 */
+    box-sizing: border-box;
+    background-color: #F3F3F3;
+    width: 680px;
+    padding: 16px 0 16px 30px;
+    border-radius: 16px;
+}
+
+.metadata .lisence_data  {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3개의 열 */
+    grid-template-rows: auto auto; /* 2개의 행 */
+    gap: 10px; /* 항목 간의 간격 */
+    box-sizing: border-box;
+    background-color: #F3F3F3;
+    width: 680px;
+    padding: 16px 0 16px 30px;
+    border-radius: 16px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.menu {
+    padding-left: 0;
+    text-align: center;
+    align-items: center;
+}
+
+.menu li {
+    list-style: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    font-size: medium;
+}
+
+.menu li:nth-child(1) {
+    text-decoration: underline;
+    font-weight: bold;
+}

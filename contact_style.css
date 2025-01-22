@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    background-color: #E1E1E1;
+    font-family: pretandard;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #191919;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background-color: #F5F3F1;
+    border: 1px solid #D9D9D9;
+}
+
+.header .circle {
+    padding-left: 67px;
+    padding-top: 28px;
+}
+
+.header .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-size: 36px;
+    font-weight: bold;
+    padding-right: 130px;
+}
+
+.contents {
+    background-color: white;
+    width: 1520px;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.contents .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 32px;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+#to {
+    background-color: #F3F3F3;
+    width: 700px;
+    height: 50px;
+    border-style: none;
+    border-radius: 10px;
+    padding:0 30px;
+    font-size: 18px;
+    color: #191919;
+    font-weight: medium;
+    margin-bottom: 30px;
+}
+
+#email {
+    background-color: white;
+    width: 700px;
+    height: 50px;
+    border: 1px solid #E1E1E1;
+    border-radius: 10px;
+    padding: 0 30px;
+    font-size: 18px;
+    color: #191919;
+    margin-bottom: 30px;
+}
+
+#contents {
+    background-color: white;
+    width: 700px;
+    height: 210px;
+    border: 1px solid #E1E1E1;
+    border-radius: 10px;
+    padding: 0 30px;
+    font-size: 18px;
+    color: #191919;
+    margin-bottom: 30px;
+}
+
+#send {
+    background-color: #191919;
+    height: 50px;
+    border-radius: 10px;
+    padding: 0 52px;
+    color: white;
+    border-style: none;
+    font-size: 18px;
+    font-weight: medium;
+    display: flex;
+    width: 100%;
+    cursor: pointer;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.menu {
+    padding-left: 0;
+    text-align: center;
+    align-items: center;
+}
+
+.menu li {
+    list-style: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    font-size: medium;
+}
+
+.menu li:nth-child(3) {
+    text-decoration: underline;
+    font-weight: bold;
+}

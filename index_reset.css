@@ -1,0 +1,48 @@
+/* reset.css는 왠만하면 안 건드림 -> 폰트도 common에 넣어도 무방함 */
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+/* 프리텐다드 불러오기 */
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css");
+
+/* reset */
+body{
+    -ms-overflow-style: none;
+    margin: 0;
+    height: 100%;
+    /* 기본으로 사용 할 폰트 */
+    font-family: 'prpretendard', 'Noto Sans KR', sans-serif;
+}
+
+body::-webkit-scrollbar{
+    display:none;
+    height: 100%;
+}
+
+main {
+    width: 100vw;
+    height: auto;
+}
+
+*{ 
+    margin:0;  
+	padding:0;
+    border: 0;
+    cursor: default;
+    list-style: none;
+    font-family: 'prpretendard', 'Noto Sans KR', sans-serif;
+    font-style: normal;
+    text-decoration:none;
+    outline:0;
+    letter-spacing: 0;
+}
+
+ol,ul, li, em, a, h2, hr, p, h3, h1, h4, h5, input, select, textarea{ 
+    list-style: none;
+    font-family: 'prpretendard', 'Noto Sans KR', sans-serif;
+    font-style: normal;
+    text-decoration:none;
+    outline:0;
+}
+
+img{ 
+    border:0;
+}

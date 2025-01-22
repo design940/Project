@@ -1,0 +1,85 @@
+/* common.css에서는 모든 페이지에서 공통적으로 사용하는 css 넣기 */
+input,
+textarea{
+    cursor: text;
+    resize: none;
+}
+select,
+select option,
+button,
+button *,
+a img,
+a p,
+a{
+    cursor: pointer;
+}
+button,
+img{
+    display: inline-block;
+}
+button[disabled]{
+    cursor: default;
+    background-color: #999!important;
+}
+input,
+textarea,
+button,
+select,
+a,
+label{
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+select::-ms-expand { 
+	display: none;
+}
+select {
+    -o-appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+/* input search */
+input::-ms-clear,
+input::-ms-reveal{
+	display:none;width:0;height:0;
+}
+/* input search 기본값 삭제 */
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button,
+input::-webkit-search-results-button,
+input::-webkit-search-results-decoration{
+	-webkit-appearance: none;
+    /* background: url('사용할 이미지 경로') center center no-repeat; */
+    cursor: pointer;
+    width: 16px;
+    height: 16px;
+    /* border-radius: 8px; -> 필요하면 사용 */
+    background-color: #C8C8C8;
+}
+
+* a {
+    color: #191919;
+}
+
+/* input placeholder 스타일 */
+input::placeholder {
+    color: #999;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
